@@ -1,0 +1,60 @@
+* {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Times New Roman';
+  color: white;
+  font-size: 98px;
+  margin: 5px;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 24px;
+}
+
+.s1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/astolfo.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/astolfo.jpg);
+  background-size: cover;
+}
+
+.s2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/astolfo1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/astolfo1.jpg);
+  background-size: cover;
+}
+
+.s3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/astolfo2.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/astolfo2.jpg);
+  background-size: cover;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background: white;
+}
+
+@media (max-width: 367px) {
+  h1 {
+    font-size: 36px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .s1 {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/phone1.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/phone1.png);
+  }
+  .s2 {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/phone2.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/phone2.png);
+  }
+  .s3 {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/phone3.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/phone3.png);
+  }
+}
+/*# sourceMappingURL=main.css.map */
